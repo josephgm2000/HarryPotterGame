@@ -204,7 +204,7 @@ namespace HarryPotter
             {
                 if (Voldemort.HitTest(hit.Bounds))
                 {
-                    EnemyHealth -= 1;
+                    EnemyHealth -= 3;
                 }
             }
             if (ShieldUp)
